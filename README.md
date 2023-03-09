@@ -7,5 +7,4 @@ You can also edit the map freely and change the drawing accuracy
 
 *it’s 2.5D but most people call it 3D 
 
-Install it here:
-https://my.numworks.com/python/nitaki/ported_3d_raycaster
+[Install it here](https://my.numworks.com/python/nitaki/insider_3d/edit)
