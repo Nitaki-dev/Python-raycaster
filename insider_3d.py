@@ -11,6 +11,8 @@ pi2 = 3.141592653589793
 def deg2rad(x): 
   return x*2/180
 
+#This is only used for the calculator version
+
 #Makes a list of random floats within a set range
 def uniform2(low: float = ..., high: float = ..., size: int = 1) -> List[float]:
     return [uniform(low, high) for _ in range(size)]
@@ -59,7 +61,7 @@ def main():
         maps[x][y]=0
         if x==size-2:
           exitx,exity=(x,y)
-          maps[x][y]=2
+          maps[x][y]=0
           break
       else:
         count=count+1
@@ -124,9 +126,9 @@ def main():
 
 def shouldEnterNewRoom():
   while True: #Enter new room screen
-    fill_rect(0,0,322,220,(0,0,0))
+    fill_rect(0,0,322,222,(0,0,0))
     draw_string("Press OK to enter room "+str(roomCount),40,5, (255,255,255), (0,0,0))
-    if (keyboard.is_pressed("up")):
+    if keydown(KEY_OK)
       fill_rect(0,0,322,222,(0,0,0))
       return
 
