@@ -1,4 +1,4 @@
-# Python-raycaster
+# Numworks Python-raycaster
 **⚠️this can only run on calculators with Ulipson installed⚠️**
 (https://getupsilon.web.app/)
 
