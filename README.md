@@ -9,5 +9,5 @@ You can move using the UP and DOWN arrow keys and
 look left or right with the LEFT or RIGHT arrow keys.<br>
 You can also change the drawing accuracy (change the res variable at line 34) to a higher value if the game is too slow.<br> <br>
 *it’s technically 2.5D but most people call it 3D*<br> <br>
-[Install it here](https://my.numworks.com/python/nitaki/insider_3d/edit)
-*Also, most of this code was written at inconvenient times to if there are any spelling/grammar mistakes please let me know**
+[Install it here](https://my.numworks.com/python/nitaki/insider_3d/edit)<br><br>
+*Also, most of this code was written at inconvenient times to if there are any spelling/grammar mistakes please let me know*
