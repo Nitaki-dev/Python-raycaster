@@ -21,7 +21,7 @@ def deg2rad(x):
 
 while True:
   fill_rect(0,0,320,222,(0,0,0)) #Clears background
-  for i in range(60): #Set the FOV here
+  for i in range(75):
     rot_i = rot+deg2rad(i-30) #
     x, y = (posx,posy) 
     sin1, cos1 = (0.02*np.sin(rot_i), 0.02*np.cos(rot_i)) #Create fake cos and sin variables
@@ -39,14 +39,14 @@ while True:
     if maps[int(x)][int(y)]==3: #Red
       c=(150,10,10)
       
-    fill_rect(i+50,100+int((h)*20),1,-int((h)*20),c) #draws bottom walls
-    fill_rect(i+50,100-int((h)*20),1,int((h)*20),c) #drawstop walls
+    fill_rect(i+123,100+int((h)*20),1,-int((h)*20),c) #draws bottom walls
+    fill_rect(i+123,100-int((h)*20),1,int((h)*20),c) #drawstop walls
     
-    fill_rect(i+50,80-int((h-1)*20),1,int((h-1)*20),(93,128,255)) #sky
-    fill_rect(i+50,119+int((h-1)*20),1,-int((h-1)*20),(13,175,15)) #floor
+    fill_rect(i+123,100-20-int((h-1)*20),1,int((h-1)*20),(93,128,255)) #sky
+    fill_rect(i+123,100+19+int((h-1)*20),1,-int((h-1)*20),(13,175,15)) #floor
     
-    fill_rect(i+50,0,1,80,(0,0,0)) #Remove mistakes
-    fill_rect(i+50,119,1,200,(0,0,0)) #Remove mistakes
+    fill_rect(i+123,0,1,100-20,(0,0,0)) #Remove mistakes
+    fill_rect(i+123,100+19,1,200,(0,0,0)) #Remove mistakes
     
   sleep(0.3) #Sets a max framerate
   
