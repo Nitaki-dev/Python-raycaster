@@ -21,7 +21,7 @@ def deg2rad(x):
 
 while True:
   fill_rect(0,0,320,222,(0,0,0)) #Clears background
-  for i in range(60):
+  for i in range(60): #Set the FOV here
     rot_i = rot+deg2rad(i-30) #
     x, y = (posx,posy) 
     sin1, cos1 = (0.02*np.sin(rot_i), 0.02*np.cos(rot_i)) #Create fake cos and sin variables
